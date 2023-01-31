@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color:#242424;
+}
+.ulsy{
+display: flex;
+list-style-type: none;
+gap:15px;
+background-color: #5b0000;
+color: rgb(255, 255, 255);
+width: 100%;
+padding-top: 2%;
+padding-bottom: 2%;
+
+font-size: 25px;
+font-style:italic;
+
+}
+
+
+footer{
+  padding: 30px;
+  background-color: #5b0000;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  left: 0;
+bottom: 0;
+width: 100%;
+text-align: center;
+
+}
+/* ---------- */
+.grads{
+  display: grid;
+  grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+  grid-gap: 40px;
+  padding: 60px 0;
+  
+}
+img{
+  height: 400px;
+  
+}
+.card {
+  
+  
+  box-sizing: border-box;
+  padding: 2em;
+  font-family: Ubuntu;
+  border-radius: 25px;
+  color: white;
+  line-height: 25px;
+  box-shadow: 5px 5px 10px rgb(138, 0, 0);
+  float:left;
+
+margin: 5%;
+margin-left: 10%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.container {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 10px;
+  color: rgb(255, 255, 255);
+  
+
+}
+.fd{
+text-align: center;
+}
